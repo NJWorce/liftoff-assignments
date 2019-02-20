@@ -7,11 +7,36 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+The Grade-tracker app is a concept fullfilling a need in the homeschool and alternative school community for a dynamic record keeping application 
+capable of tracking assignments, grades, and attendence. 
+Homeschool comunities are limited in their ability to conveiniently and accurately tracking assignments and their associated grades. The state of the art software for grade and attendence tracking that had parnered with elements of the homeschool comunity is discontinuing their product, leaving this comunity in a deficite of grade-keeping software. To address this problem, I have proposed the construction of a low-cost / high yeild application. 
 ### Features
-Include Features here
+User login and Role Based Acess controlls:
+This is the corner-stone of the application, as every student that logs in to the interface will see only their work and grades displayed, while 
+the teachers that log in will only see their classes reflected in the display. 
+
+Student: View only:
+Once a student is logged in, he or she should see only a selection of the classes they are in, and their work displayed as well as the graded for that work (or lack therof). 
+A teacher's view should include a list of their classes, as well as ability to add grades to the selected assignment. 
+
+Teacher: add assignment, edit grade:
+Once a teacher is logged in, they should be able to add an assignment to a certain class, and edit past assignments(including delete an assigment). 
+
+Admin Role: Add classes, view grades, 
+
+Grading settings: 
+Grading settings should be either predetermined, or they should be selected by the admin on creation of the class. these settings include grading catagories, school standards for letter grades, and possibly wieghted catagories. (I can see this section really going beyond the most basic necessary steps and becoming a liability). 
+
 ### Technologies
-Include Technologies here
+I need a technology with accessable role based access controls becasue that is the cornerstone of the application. 
+I also need a front-end framework to display my views and in order to fill the recomendation of using a front end framework. 
+
+I'm going to use Django because it has out-of-the-box capabilities in user account controlls / and role based access.
+Becasue I'm using python I'll need to use a virtual enviroment. I will use Virtualenv for my virtual enviroment management. 
+I am going to overlay a react-js framework onto the django back-end and templates.
+For data persistance, I would like to use Firebase's cloud-based noSequel database, but I am willing to go to the old mysequel database if that doesn't work out so well. 
+
 
 ### What I'll Have to Learn
-Include what you will need to learn here
+I will firstly need to learn to use react-js and become familiar with it's capabilities, in order to under stand the appropriate sharing of burdens/ layering for this project. 
+I will then nead to finish learning how to use django to support my back-end requirements, which include advanced user acess controls and security. 
