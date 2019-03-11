@@ -7,13 +7,23 @@ For this assignment, you'll create some initial plans for your project.
 ## Submission Instructions
 
 ### Wireframes
+1. Login and firstveiw for admin user - https://drive.google.com/open?id=1LDkIdd9KnSe7LWLrqMa3iMayACgSYUno
 
-(Include at least 3 wireframes here, adding images or files to your the repository as necessary. Format them as a bulleted/unordered list with links to the files.)
+2. Admin user dashboard and Student list view - https://drive.google.com/open?id=17_ND-biQWzVejzkHsWACa0rk8ZXYLEMT
+
+3.Admin user dashboard and Teacher list view - https://drive.google.com/open?id=10-dzB6s7Zx5h_QoYJZnuGIsk7_vMrZR6
+
+4.Admin user dashboard and Classes view  - https://drive.google.com/open?id=1oHdyo71aX2pMu1aXVV-R54YjfbuZGw-V
+
+also the images should be in this folder. 
 
 ### Project Tracker
 
-(Include a link to your public Pivotal Tracker project. Be sure you have user stories added for at least your first 2-week sprint.)
+
+https://www.pivotaltracker.com/n/projects/2313507
+
 
 ### Project Repo Link
 
-(Include a link to your project on GitHub)
+
+https://github.com/NJWorce/Cloud-Coop
